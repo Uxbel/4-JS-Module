@@ -10,7 +10,7 @@ var subtraction = () => Number(inputA()) - Number(inputB());
 var multiplication = () => Number(inputA()) * Number(inputB());
 var division = () => Number(inputA()) / Number(inputB());
 
-// Muestra el resultado final según la operación
+// Muestra el resultado final según la operación concreta
 
 var resultSum = () => document.getElementById("resultado").innerText = sum();
 var resultSubtraction = () => document.getElementById("resultado").innerText = subtraction();
